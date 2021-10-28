@@ -107,6 +107,13 @@ a:link {
   display: block;
 }
 
+/* 상품 크기조절 */
+.col-md-2 img{
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+}
+
 
 
 

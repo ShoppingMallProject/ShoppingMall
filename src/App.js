@@ -64,6 +64,74 @@ class App extends React.Component {
 
           </header>
 
+      {/* 상품배열 */}
+      {/* md:12가 끝  */}
+      {/* 2씩 할당 */}
+      <div className="container-man top5">
+        <div className="row">
+          <h2>남성부분 TOP 5</h2>
+          <div class="col-md-2">
+            <img src="images/apple.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/cellphone.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/laptop.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/water.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/shoes.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="container-man top5">
+        <div className="row">
+          <h2>여성부분 TOP 5</h2>
+          <div class="col-md-2">
+            <img src="images/jam.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/cellphone.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/coffee.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/bread.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+          <div class="col-md-2">
+          <img src="images/water.jpg" width="100%" />
+            <h4>상품명</h4>
+            <p>상품설명 & 가격</p>
+          </div>
+
+        </div>
+      </div>
+
+
           <footer>
             <div className="profiles">
               <div className="user">
