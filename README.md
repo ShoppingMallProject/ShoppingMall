@@ -28,7 +28,10 @@ localhost:3000
 Antoher git process seems to be running in this repository 오류해결방법
 https://mocadev.tistory.com/19
 
-## `npm install react-bootstrap bootstrap@5.1.3`
 
+리액트 라우터 돔 설치 ( 페이지 나누기 라우트)
+## `yarn add react-router-dom`
+
+## `npm install react-bootstrap bootstrap@5.1.3`
 부트스트랩 사용위해 다운로드
 
