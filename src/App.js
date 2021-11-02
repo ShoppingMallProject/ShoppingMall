@@ -21,13 +21,7 @@ class App extends React.Component {
   componentDidMount() {
 
 
-    
-    // DB 테스트
-     fetch('http://localhost:3001/db_test')
-      .then(res=>res.json())
-      .then(data=>{
-        console.log(data[0]);
-      });
+ 
   }
 
   
