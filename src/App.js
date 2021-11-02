@@ -4,6 +4,7 @@ import './App.css';
 import { FaAlignJustify } from 'react-icons/fa';
 import SearchBar from './components/SearchBar';
 import Login from './components/Login';
+import Register from './components/Register';
 import { Carousel } from 'react-bootstrap';
 //라우터기능
 import {Link,Route,Switch} from 'react-router-dom';
@@ -244,6 +245,10 @@ class App extends React.Component {
           {/* <Route exact path="/login" Component={Login}></Route> */}
           <Route exact path="/login">
             <Login/>
+          </Route>
+
+          <Route exact path="/register">
+            <Register/>
           </Route>
       </div>
       
