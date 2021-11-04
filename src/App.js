@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { FaAlignJustify } from 'react-icons/fa';
+import { FaAlignJustify,FaCartPlus,FaUserAlt,FaSearch } from 'react-icons/fa';
 import SearchBar from './components/SearchBar';
 import Login from './components/Login';
 import Register from './components/Register';
@@ -53,6 +53,18 @@ class App extends React.Component {
 
             <div className="searchbar">
               <SearchBar/>
+              
+            </div>
+            <div>
+            <FaSearch size="25"/>
+            </div>
+            <div className="mypage">
+              <FaUserAlt color="rgb(105, 156, 231)" size="45" />
+              <p>내정보</p>
+            </div>
+            <div className="cart">
+              <FaCartPlus color="rgb(105, 156, 231)" size="45"/>
+              <p>장바구니</p>
             </div>
           </div>
         </header>
